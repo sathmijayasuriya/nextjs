@@ -11,7 +11,7 @@ export default function Home() {
         <li><a href="/services"> Services</a></li>
         <li><Link href="/about">About</Link></li>
         <li><Link href="/products">Prodcuts</Link></li>
-        <li><Link href="/">Contact Us</Link></li>
+        <li><Link href="/contact">Contact Us</Link></li>
         {/* external sites open */}
         <li><Link id={styles.specialId} href = "https://nextjs.org/" target="_blank"> NextJS </Link></li>
         <li><Link href="/products/meat">meat page</Link></li>
