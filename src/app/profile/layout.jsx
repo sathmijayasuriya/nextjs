@@ -4,9 +4,9 @@ export default function PrfofileLayout({ children }) {
         <div>
            <h1 className="raw">profileheader</h1> 
         </div>
-        {/*  this is profile page */}
+        {/*  injected profile page */}
         {children}       
-        <div>
+        <div className="raw">
             footer
         </div>
      </div>

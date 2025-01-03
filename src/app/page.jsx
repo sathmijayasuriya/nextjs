@@ -1,7 +1,7 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-
+import mountain from '../../public/mountain.png';
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -17,6 +17,9 @@ export default function Home() {
         <li><Link href="/products/meat">meat page</Link></li>
 
       </ul>
+      <div style={{height:"50%"}}>
+      <Image style={{width:"100%"}} src={mountain}/>
+      </div>
     </div>
   );
 }
