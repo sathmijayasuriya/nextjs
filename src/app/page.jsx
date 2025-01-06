@@ -3,6 +3,9 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import mountain from '../../public/mountain.png';
 export default function Home() {
+
+  console.log("image ----------- ",mountain);
+  //we can't see output on the browser because of server component rendering
   return (
     <div className={styles.page}>
       <h1>Next.js concepts</h1>
@@ -18,7 +21,9 @@ export default function Home() {
 
       </ul>
       <div style={{height:"50%"}}>
-      <Image style={{width:"100%"}} src={mountain}/>
+      {/* It automatically optimizes images by resizing and compressing them to deliver faster load times. 
+      Next.js creates optimized images on demand and stores them temporarily in its server cache. */}
+      <Image alt="image optimization" style={{width:"100%"}} src={mountain}/>  
       </div>
     </div>
   );
