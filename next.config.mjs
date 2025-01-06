@@ -24,6 +24,10 @@ const nextConfig = {
             protocol: 'https',
             hostname: 'img.freepik.com',
           },
+        //   {
+        //     protocol: 'https',
+        //     hostname: '**',   //can be use all the hostnames (wildcards) including https
+        //   },
         ],
       },
 };
