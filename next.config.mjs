@@ -1,7 +1,7 @@
 // /** @type {import('next').NextConfig} */
 // const nextConfig = {
 //     images: {
-//       domains: ['image.cdn2.seaart.me','img.freepik.com'], // Allow the entire domain
+//       domains: ['image.cdn2.seaart.me','img.freepik.com'], // Allow the entire domain , ** here not working
 //     },
 //   };
   
